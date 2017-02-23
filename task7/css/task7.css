@@ -1,0 +1,32 @@
+.container{
+	width: 100%;
+	min-width: 1280px;
+	font-family: "Microsoft YaHei";
+}
+header{
+	width: 90%;
+	height: 60px;
+}
+
+.banner-left{
+	height: 30px;
+	width:80px;
+	display: inline-block;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 20px
+
+
+
+}
+.banner-left img{
+	width:30px;
+	height:30px;
+	
+}
+.banner-left p{
+	position: absolute;
+	left: 30px;
+	top: 0;
+
+}

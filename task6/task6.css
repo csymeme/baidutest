@@ -191,26 +191,26 @@ header .date{
 .art_1_down .par_three{
 	text-indent: 2em;
 }
-.art_l_down .img_two{
+.art_1_down .img_two{
 	float:right;
 	padding: 15px;
 	width:226px;
 	height:300px;
 }
 
-.art_r{
+.art2{
 	float: right;
 	width: 458px;
 }
-.art_r .art_r_up{
+.art2 .art_r_up{
 	position: relative;
 	margin-top: 15px;
 }
-.art_r .art_r_up .img_three{
+.art2 .art_r_up .img_three{
 	width:458px;
 	height: 275px;
 }
-.art_r .art_r_up .mark_one{
+.art2 .art_r_up .mark_one{
 	background: black;
 	width:458px;
 	height:61px;
@@ -218,7 +218,7 @@ header .date{
 	bottom:3px;
 	background-color:rgba(0,0,0,0.3)
 }
-.art_r .art_r_up .describe{
+.art2 .art_r_up .describe{
 	position: absolute;
 	bottom: 10px;
 	height: 40px;
@@ -226,31 +226,31 @@ header .date{
 	padding-left: 20px;
 	border-left: 3px solid #72b16a; 
 }
-.art_r .art_r_up .describe .des_one{
+.art2 .art_r_up .describe .des_one{
 	font-size: 26px; 
 	color: #fff;
 }
-.art_r .art_r_up .describe .des_two{
+.art2 .art_r_up .describe .des_two{
 	font-style: italic;
 	color: #72b16a;
 }
-.art_r .art_r_down{
+.art2 .art_r_down{
 	width:459px;
 	height: 318px;
 	background: #eeedd6;
 	margin-top: 53px;
 }
-.art_r .art_r_down>p{
+.art2 .art_r_down>p{
 	font: 16px/41px "宋体";
 	color: #5a5b5b; 
 	margin-left:30px;
 	padding-top:16px;
 	padding-bottom: 20px;
 }
-.art_r .art_r_down p .mark_word{
+.art2 .art_r_down p .mark_word{
 	font:italic 12px "Microsoft YaHei";
 }
-.art_r .art_r_down p .triangle{
+.art2 .art_r_down p .triangle{
 	 width: 0;
 	 height: 0;
 	 border-left:5px solid transparent;
@@ -311,11 +311,14 @@ header .date{
 	color:#5a5b5b;
 }
 footer{
-	clear:both;
-	width: 892px;
-	height: 59px;
-	border-top: 1px solid #938e8c;
+  clear: both;
+  margin: 0 auto;
+  width: 892px;
+  height: 59px;
+  border-top: 1px solid #938e8c;
 }
-footer .ife_url{
-	float: right; font: 12px "黑体"; color: #d45d5c; 
+footer p{
+  float: right;
+  font: 12px "黑体";
+  color: #d45d5c;
 }
